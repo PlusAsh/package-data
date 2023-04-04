@@ -2,7 +2,6 @@
 
 namespace AshleyHardy\Data;
 
-use AshleyHardy\JsonApi\Parameter;
 use ReflectionClass;
 use RuntimeException;
 
