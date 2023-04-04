@@ -3,7 +3,6 @@
     "description": "A generic Data Transfer Object with validation.",
     "type": "library",
     "require": {
-        "ashley-hardy/utilities": "^1.0",
         "ashley-hardy/persistence": "^1.0"
     },
     "require-dev": {

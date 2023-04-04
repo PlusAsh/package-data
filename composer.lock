@@ -4,68 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "385c29648449247e6316c0c354e89a3e",
+    "content-hash": "bab9c930e36f83f49d6cefd3a4d97bd6",
     "packages": [
         {
-            "name": "ashley-hardy/json-api",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/PlusAsh/package-jsonapi.git",
-                "reference": "9735a2bbdd1467faa9a0ed24b31dbb34d43142fe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/PlusAsh/package-jsonapi/zipball/9735a2bbdd1467faa9a0ed24b31dbb34d43142fe",
-                "reference": "9735a2bbdd1467faa9a0ed24b31dbb34d43142fe",
-                "shasum": ""
-            },
-            "require": {
-                "ashley-hardy/utilities": "^1.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^10.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "AshleyHardy\\JsonApi\\": "src/",
-                    "AshleyHardy\\JsonApi\\TestResources\\": "tests/resources/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Ashley Hardy",
-                    "email": "a.hardy@h4rdy.co.uk"
-                }
-            ],
-            "description": "A simple view-controller framework for rapid development of JSON API services around existing entities.",
-            "support": {
-                "issues": "https://github.com/PlusAsh/package-jsonapi/issues",
-                "source": "https://github.com/PlusAsh/package-jsonapi/tree/1.0.0"
-            },
-            "time": "2023-04-04T06:47:59+00:00"
-        },
-        {
             "name": "ashley-hardy/persistence",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PlusAsh/package-persistence.git",
-                "reference": "e80e1dcd6862b9bc5b24dbee69d9998203405601"
+                "reference": "db00fd80ac61975b7107d03ee206a779087c314c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PlusAsh/package-persistence/zipball/e80e1dcd6862b9bc5b24dbee69d9998203405601",
-                "reference": "e80e1dcd6862b9bc5b24dbee69d9998203405601",
+                "url": "https://api.github.com/repos/PlusAsh/package-persistence/zipball/db00fd80ac61975b7107d03ee206a779087c314c",
+                "reference": "db00fd80ac61975b7107d03ee206a779087c314c",
                 "shasum": ""
             },
             "require": {
-                "ashley-hardy/utilities": "^1.0"
+                "ashley-hardy/utilities": "^2.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.0",
@@ -90,29 +46,29 @@
             "description": "A MySQL persistence layer for plain PHP entities.",
             "support": {
                 "issues": "https://github.com/PlusAsh/package-persistence/issues",
-                "source": "https://github.com/PlusAsh/package-persistence/tree/1.0.0"
+                "source": "https://github.com/PlusAsh/package-persistence/tree/1.0.1"
             },
-            "time": "2023-04-04T07:10:37+00:00"
+            "time": "2023-04-04T07:57:09+00:00"
         },
         {
             "name": "ashley-hardy/utilities",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PlusAsh/package-utils.git",
-                "reference": "e43c81764888937288f5ba10f00e6710407f04cb"
+                "reference": "8f2743b95425e5d3bf41332982c60ccf2547dab9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PlusAsh/package-utils/zipball/e43c81764888937288f5ba10f00e6710407f04cb",
-                "reference": "e43c81764888937288f5ba10f00e6710407f04cb",
+                "url": "https://api.github.com/repos/PlusAsh/package-utils/zipball/8f2743b95425e5d3bf41332982c60ccf2547dab9",
+                "reference": "8f2743b95425e5d3bf41332982c60ccf2547dab9",
                 "shasum": ""
             },
             "require": {
                 "ramsey/uuid": "^4.7"
             },
             "require-dev": {
-                "phpunit/phpunit": "^10.0"
+                "pestphp/pest": "^2.4"
             },
             "type": "library",
             "autoload": {
@@ -130,9 +86,9 @@
             "description": "Common utilities and helpers across other AshleyHardy components and repositories.",
             "support": {
                 "issues": "https://github.com/PlusAsh/package-utils/issues",
-                "source": "https://github.com/PlusAsh/package-utils/tree/1.0.0"
+                "source": "https://github.com/PlusAsh/package-utils/tree/2.0.0"
             },
-            "time": "2023-04-04T06:40:50+00:00"
+            "time": "2023-04-04T07:50:45+00:00"
         },
         {
             "name": "brick/math",
