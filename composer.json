@@ -1,0 +1,24 @@
+{
+    "name": "ashley-hardy/data",
+    "description": "A generic Data Transfer Object with validation.",
+    "type": "library",
+    "require": {
+        "ashley-hardy/utilities": "^1.0",
+        "ashley-hardy/persistence": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AshleyHardy\\Data\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ashley Hardy",
+            "email": "a.hardy@h4rdy.co.uk"
+        }
+    ]
+}
